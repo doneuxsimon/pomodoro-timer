@@ -1,0 +1,58 @@
+body {
+    background-color: #FF7E67;
+    font-family: "Pacifico", cursive;
+}
+
+.heading {
+    color: #FAE3D9;
+}
+
+.row {
+    width: 100%;
+}
+
+.timer {
+    color: #fff;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border: solid 5px #fff;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 0;
+}
+
+.buttons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-play,
+.fa-redo-alt {
+    color: #e3f6f5;
+    border: 2px solid transparent;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.fa-play:hover,
+.fa-redo-alt:hover {
+    color: #bae8e8;
+    border: 2px solid #bae8e8;
+    transition: 0.3s ease;
+}
+
+.showMessage {
+    display: block;
+    padding: 1rem 0;
+    color: #FF7E67;
+    background: #fff;
+    border-radius: 0.5rem;
+    transition: 0.5s ease;
+}
