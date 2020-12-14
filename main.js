@@ -84,7 +84,7 @@ function pause() {
 }
 
 function longuePause() {
-    minutes = 14;
+    minutes = 19;
     seconds = 59;
     document.getElementById("minutes").innerHTML = minutes;
     document.getElementById("seconds").innerHTML = seconds;
